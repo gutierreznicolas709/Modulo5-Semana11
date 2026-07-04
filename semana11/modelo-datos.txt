@@ -1,0 +1,43 @@
+1. Entidad: Incidencia
+
+Campos principales:
+
+- id_incidencia
+- asunto
+- detalle
+- categoria (infraestructura, servicios públicos, académico)
+- estado_actual (pendiente, en proceso, solucionado)
+- fecha_registro
+- evidencia_adjunta
+- zona_referencia
+
+Propósito:
+Esta entidad permite almacenar cada situación reportada por la comunidad, organizando la información de forma que se pueda gestionar, clasificar y dar seguimiento a los problemas identificados.
+
+
+2. Entidad: Participante
+
+Campos principales:
+
+- id_participante
+- tipo_usuario (estudiante, ciudadano, representante)
+- correo_contacto
+- nombre_visible (opcional)
+- fecha_creacion
+
+Propósito:
+Registrar a las personas que interactúan con la plataforma, diferenciando sus roles y asegurando que puedan participar sin comprometer información sensible.
+
+Entidad: Actualización
+
+Campos principales:
+
+- id_actualizacion
+- incidencia_id
+- cambio_estado
+- observacion
+- fecha_cambio
+- responsable
+
+Propósito:
+Guardar el historial de modificaciones de cada incidencia, permitiendo evidenciar avances, cambios de estado y responsables, lo que fortalece la transparencia y el control del proceso.

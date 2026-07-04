@@ -1,0 +1,12 @@
+La interfaz de la plataforma estaría diseñada de forma sencilla y clara para facilitar la participación de cualquier 
+usuario. En la parte superior habría un formulario para crear una nueva causa o reporte, donde se ingresen datos como 
+título, descripción y categoría. Debajo, se mostraría una lista de causas disponibles organizadas por fecha o nivel de 
+prioridad, permitiendo a los usuarios revisarlas fácilmente.
+
+Cada causa tendría un botón de “Apoyar” visible, junto con un contador que indique cuántas personas han respaldado esa 
+iniciativa. Esto permite medir el interés de la comunidad y dar mayor visibilidad a los casos más relevantes. 
+Además, cada elemento mostraría un estado básico (pendiente, en proceso o resuelto) para informar sobre su avance.
+
+La interfaz debe evitar mostrar información personal o sensible de los usuarios, enfocándose únicamente en los datos 
+necesarios para la participación y el seguimiento comunitario. De esta manera, se garantiza una experiencia intuitiva, 
+segura y orientada al control social.
